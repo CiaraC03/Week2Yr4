@@ -9,6 +9,7 @@ import java.util.List;
 @RequestMapping("/test")
 public class ProductController {
 
+
     private List<Product> listproduct = new ArrayList<Product>();
 
     @GetMapping("/products")
